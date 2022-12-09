@@ -1,0 +1,41 @@
+.masters__wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.masters__title {
+  margin-bottom: 80px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.masters__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.master__card {
+    margin-bottom: 60px;
+}
+
+.master__img {
+  width: 400px;
+  height: 477px;
+  margin-bottom: 30px;
+}
+
+.master__name {
+    margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 1.3;
+}
+
+.master__position {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3;
+}

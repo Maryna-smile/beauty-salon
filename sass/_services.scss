@@ -1,0 +1,13 @@
+/* -------------------------services------------------------------------------------------------------------------ */
+.work-galery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px 24px;
+    /* align-items: center; */
+}
+
+.work-galery__img {
+    width: 410px;
+    height: 386px;
+}

@@ -1,0 +1,21 @@
+/* -------------------------cosmetics------------------------------------------------------------------------------ */
+
+.cosmetics__wrapper {
+    display: flex;
+    justify-content: center;
+       flex-wrap: wrap;
+       padding-top: 170px;
+    padding-bottom: 170px;
+
+}
+
+.visually-hidden {}
+
+.cosmetics__img {
+    width: 306px;
+    height: 144px;
+    transition: all 400ms ease-in;
+    &:hover {
+        scale: 1.2;
+    }
+}
