@@ -1,6 +1,5 @@
 /* -------------------------hero------------------------------------------------------------------------------ */
 .hero__title {
-
     width: 660px;
     margin: 0 auto;
     text-align: center;
@@ -15,3 +14,12 @@ line-height: 1.2;
 
     @media screen and(min-width: 1280px) {}
 }
+
+.hero {
+    background-image: url('../images/hero/hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+

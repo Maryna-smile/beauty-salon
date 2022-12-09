@@ -10,4 +10,8 @@
 .work-galery__img {
     width: 410px;
     height: 386px;
+    transition: all 400ms ease-in-out;
+    &:hover {
+        scale: 1.1;
+    }
 }
