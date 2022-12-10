@@ -1,32 +1,69 @@
-
 /* -------------------------navigation------------------------------------------------------------------------------ */
 nav {
     display: flex;
     justify-content: space-around;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    align-items: baseline;
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+    @media screen and(min-width: 768px) {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    @media screen and(min-width: 1280px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 
 .nav-left {
-    display: flex;
-    justify-content: flex-start;
-    gap: 80px;
-    color: $textColor;
+    display: none;
+
+    @media screen and(min-width: 768px) {
+        display: flex;
+        justify-content: flex-start;
+        gap: 80px;
+        color: $textColor;
+    }
 }
 
 .logo {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
+
+    @media screen and(min-width: 768px) {
+        width: 35px;
+        height: 35px;
+    }
+
+    @media screen and(min-width: 1280px) {
+        width: 40px;
+        height: 40px;
+    }
 }
 
 .nav__item {
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 16px;
+
+    @media screen and(min-width: 768px) {
+        font-weight: 600;
+        font-size: 18px;
+    }
 }
 
 .nav-right {
     display: flex;
-    justify-content: flex-end;
-    gap: 80px;
-    color: $textColor;
+    margin: 0;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 50px;
+
+    @media screen and(min-width: 768px) {
+
+        justify-content: flex-start;
+        gap: 80px;
+        color: $textColor;
+    }
 }
